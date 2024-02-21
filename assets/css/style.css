@@ -38,16 +38,11 @@ i{
 }
 
 .logo{
-    display: flex;
-    color:var(--blanco);
-    margin-left: 18px;
-    justify-content: center;
-    align-items: center;
+    margin-left: 20px;
 }
 
-.logo p{
-    font-size: small;
-    margin-left: 10px;
+.logo img{
+    width: 50px;
 }
 
 .menu{
@@ -203,8 +198,13 @@ footer{
         padding: 0 6px;
     }
 
+    .logo {
+        margin-left: 50px;
+    }
+
     .filtro{
         grid-area: filtro;
+        justify-content: flex-start;
     }
 
     .main{

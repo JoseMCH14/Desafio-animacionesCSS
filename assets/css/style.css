@@ -122,11 +122,11 @@ button{
     gap:15px
 }
 .productos .card {
-    transition: opacity 0.3s ease; 
+    transition: opacity 0.2s ease; 
 }
 
 .productos .card:hover {
-    opacity: 0.7; 
+    opacity: 0.5; 
 }
 
 .figure{

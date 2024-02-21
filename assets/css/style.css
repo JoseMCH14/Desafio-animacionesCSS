@@ -217,6 +217,25 @@ footer{
 
     footer{
         grid-area:footer;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .contacto{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contacto i{
+        display: flex;
+        flex-direction: row;
+        margin: 5px 0;
+    }
+
+    .contacto p{
+        margin-left: 8px;
+        font-weight: 200;
     }
 
     .grid{
@@ -228,7 +247,7 @@ footer{
         grid-template-columns: 170px 5fr;
         grid-template-rows: 50px auto 71px;
     }
-    
+
 }
 
 @media screen and (min-width: 992px){
@@ -289,11 +308,6 @@ footer{
 
     footer{
         grid-area: footer;
-    }
-
-    footer p{
-        font-size: small;
-        text-align: center;
     }
 
     .grid{
